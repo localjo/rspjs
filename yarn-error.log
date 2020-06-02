@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/jo/.nvm/versions/node/v12.16.1/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add @babel
+
+PATH: 
+  /Users/jo/.rvm/gems/ruby-2.7.0/bin:/Users/jo/.rvm/gems/ruby-2.7.0@global/bin:/Users/jo/.rvm/rubies/ruby-2.7.0/bin:/Users/jo/.pyenv/plugins/pyenv-virtualenv/shims:/Users/jo/.pyenv/shims:/Users/jo/.pyenv/bin:/Users/jo/.nvm/versions/node/v12.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jo/.rvm/gems/ruby-2.7.0/bin:/Users/jo/.rvm/gems/ruby-2.7.0@global/bin:/Users/jo/.rvm/rubies/ruby-2.7.0/bin:/Users/jo/.pyenv/plugins/pyenv-virtualenv/shims:/Users/jo/.pyenv/shims:/Users/jo/.pyenv/bin:/Users/jo/.nvm/versions/node/v12.16.1/bin:/Users/jo/.rvm/bin:/Users/jo/.composer/vendor/bin:/Users/jo/.rvm/bin:/Users/jo/.composer/vendor/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel: Request "https://registry.yarnpkg.com/@babel" returned a 405
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66996:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "rspjs",
+    "version": "1.0.0",
+    "description": "A fork of react-spring/parallax",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

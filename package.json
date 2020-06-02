@@ -1,0 +1,16 @@
+{
+  "name": "rspjs",
+  "version": "1.0.0",
+  "description": "A fork of react-spring/parallax",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.10.2",
+    "@react-spring/shared": "^9.0.0-rc.3",
+    "@react-spring/web": "^9.0.0-rc.3",
+    "react": "^16.13.1",
+    "react-spring": "^8.0.27",
+    "use-memo-one": "^1.1.1"
+  }
+}
